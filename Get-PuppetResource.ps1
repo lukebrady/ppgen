@@ -40,4 +40,4 @@ function Get-PuppetResource {
 }
 
 # Get-PuppetGeneratorHealth -URI "http://localhost:8080"
-Get-PuppetResource -URI "http://67.205.135.251" -Resources "file","user" -PuppetFile "C:\Users\lbrad23105\Dropbox\Software\Go\ppgen\wow.pp"
+Get-PuppetResource -URI "http://67.205.135.251" -Resources "file","user","group" -PuppetFile "C:\Users\lbrad23105\Dropbox\Software\Go\ppgen\wow.pp"
