@@ -3,9 +3,9 @@ MAINTAINER Luke Brady
 
 RUN apt-get update
 RUN apt-get install -y golang git
-RUN git clone
+RUN git clone https://github.com/lukebrains/ppgen
 
-RUN go build /ppgen .
+RUN go build .
 RUN ./ppgen.exe
 
 EXPOSE 8080
